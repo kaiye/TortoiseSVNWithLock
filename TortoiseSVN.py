@@ -70,7 +70,10 @@ class SvnLogCommand(TortoiseSvnCommand):
 class SvnDiffCommand(TortoiseSvnCommand):
 	def run(self, paths=None):
 		TortoiseSvnCommand.run(self, 'diff', paths)
-
+		
+class SvnLockCommand(TortoiseSvnCommand):
+	def run(self, paths=None):
+		TortoiseSvnCommand.run(self, 'lock', paths)
 
 class SvnBlameCommand(TortoiseSvnCommand):
 	def run(self, paths=None):
