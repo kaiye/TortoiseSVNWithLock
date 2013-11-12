@@ -9,7 +9,7 @@
 				"children":
 				[
 					{
-						"caption": "TortoiseSVN",
+						"caption": "TortoiseSVNWithLock",
 						"children":
 						[
 							{
@@ -17,7 +17,7 @@
 								"command": "open_file",
 								"args":
 								{
-									"file": "${packages}/TortoiseSVN/TortoiseSVN.sublime-settings"
+									"file": "${packages}/TortoiseSVNWithLock/TortoiseSVN.sublime-settings"
 								}
 							},
 							{
@@ -25,14 +25,14 @@
 								"command": "open_file",
 								"args":
 								{
-									"file": "${packages}/User/TortoiseSVN.sublime-settings"
+									"file": "${packages}/User/TortoiseSVNWithLock.sublime-settings"
 								}
 							},
 							{ "caption": "-" },
 							{
 								"command": "open_file",
 								"args": {
-									"file": "${packages}/TortoiseSVN/Default (Windows).sublime-keymap",
+									"file": "${packages}/TortoiseSVNWithLock/Default (Windows).sublime-keymap",
 									"platform": "Windows"
 								},
 								"caption": "Key Bindings – Default"
